@@ -80,10 +80,6 @@ def all_partitions(n):
 
     while partition != -1:
         print_partition(partition)
-        print("m: ", end="")
-        print(m)
-        print("s: ", end="")
-        print(partition)
         partition = next_partition(partition, m, n)
         count += 1
 
